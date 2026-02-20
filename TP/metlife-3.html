@@ -5,7 +5,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-  <elevenlabs-convai agent-id="agent_1401kh74f9h3ffxvy4k0k7x4s6bn" dynamic-variables='{"specialty":"0"}'></elevenlabs-convai>
-  <script src="https://unpkg.com/@elevenlabs/convai-widget-embed" async type="text/javascript"></script>
+
+  <elevenlabs-convai 
+    agent-id="agent_1401kh74f9h3ffxvy4k0k7x4s6bn"
+    dynamic-variables='{
+      "specialty_name": "",
+      "specialty": "",
+      "cpf": "",
+      "zipcode": "",
+      "planoValidado": "",
+      "phone": ""
+    }'>
+  </elevenlabs-convai>
+
+  <script 
+    src="https://unpkg.com/@elevenlabs/convai-widget-embed" 
+    async 
+    type="text/javascript">
+  </script>
+
 </body>
 </html>
+
